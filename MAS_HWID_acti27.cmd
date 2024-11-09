@@ -1,6 +1,10 @@
 @set masver=2.7
 @echo off
-
+title EnderBK's Activator Console
+echo User choice: HWID Activation
+echo Powered by Microsoft Activation Scripts (massgravel)
+echo Press any key to continue run script...
+pause > NUL
 
 
 ::============================================================================
@@ -135,7 +139,7 @@ popd
 
 cls
 color 07
-title  HWID Activation %masver%
+title  EnderBK's Activator Console
 
 set _args=
 set _elev=
@@ -317,7 +321,7 @@ if not defined terminal (
 mode 110, 34
 if exist "%SysPath%\spp\store_test\" mode 134, 34
 )
-title  HWID Activation %masver%
+title  EnderBK's Activator Console
 
 echo:
 echo Initializing...
